@@ -3,12 +3,14 @@ n = int(input())
 if n % 4 == 0:
     if n == 2:
         print("29")
+    elif n == 1 or n == 3 or n == 5 or n == 7 or n == 8 or n == 10 or n == 12:
+        print("31")
+    else:
+        print("30")
 else:
     if n == 2:
         print("28")
-
-
-if n == 1 or n == 3 or n == 5 or n == 7 or n == 8 or n == 10 or n == 12:
-    print("31")
-else:
-    print("30")
+    elif n == 1 or n == 3 or n == 5 or n == 7 or n == 8 or n == 10 or n == 12:
+        print("31")
+    else:
+        print("30")
