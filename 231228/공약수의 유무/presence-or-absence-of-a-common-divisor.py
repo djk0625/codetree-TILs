@@ -6,4 +6,3 @@ for i in range(a, b+1):
         break
     else:
         print(0)
-        break
