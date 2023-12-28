@@ -10,3 +10,5 @@ print()
 for j in range(n):
     print("**", end='')
     print("**")
+
+print()
